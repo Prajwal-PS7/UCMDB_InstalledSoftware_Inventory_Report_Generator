@@ -1,39 +1,29 @@
 #!/usr/bin/env python3
 """
-UCMDB 25.4 - Installed Software Authorization & Compliance Report
-(READ ONLY - no CI is ever modified)          *** LARGE-SCALE EDITION ***
+UCMDB 25.4 - Installed Software Authorization & Compliance Report (READ ONLY - no CI is ever modified)
+
+*** LARGE-SCALE EDITION ***
 
 Built for millions of installed-software CIs:
-  * Streams every server chunk: processed, written to CSV and released -
-    memory stays flat no matter how many records exist.
-  * Fetches chunks in parallel (WORKERS) with retry/backoff and automatic
-    re-authentication if the token expires during a long run.
-  * Full detail goes to CSV part files (max CSV_ROWS_PER_FILE rows each, so
-    every part opens in Excel). The Excel workbook holds the summaries.
-  * Reports are ALWAYS written, even if the run fails or is interrupted
-    (they are then marked PARTIAL).
+  * Streams every server chunk: processed, written to CSV and released - memory stays flat no matter how many records exist.
+  * Fetches chunks in parallel (WORKERS) with retry/backoff and automatic re-authentication if the token expires during a long run.
+  * Full detail goes to CSV part files (max CSV_ROWS_PER_FILE rows each, so every part opens in Excel). The Excel workbook holds the summaries.
+  * Reports are ALWAYS written, even if the run fails or is interrupted (they are then marked PARTIAL).
 
 Report columns (per computer, per installed software):
-    Hostname | IP Address | Serial | Software Name | Version | Publisher |
-    Software Type | Subscription Type | Deployment Environment |
-    Authorization | Compliance | Reason
-
-Definitions (all VERSION based):
-    Authorized    : in SOFTWARE_CATALOG AND version is in approved_versions.
-    Unauthorized  : not in catalog, or version not approved.
-    Compliant     : in catalog AND installed version >= min_version.
-    Non-Compliant : not in catalog, or installed version < min_version.
+    Hostname | IP Address | Serial | Software Name | Version | Publisher | Software Type | Subscription Type | Deployment Environment | Authorization | Compliance | Reason
 
 TQL REQUIREMENTS (software_version_compliance):
     Node  --(Composition)-->  InstalledSoftware      (required)
     Node  --(Containment)-->  IpAddress              (optional, for IPs)
-  Layout (attributes returned):
+
+Layout (attributes returned):
     Node              : name, primary_dns_name, serial_number
     InstalledSoftware : name, display_label, version, deployment_env,
                         publisher (optional)
     IpAddress         : name
-  Pagination root stays "InstalledSoftware". Each chunk must contain the
-  Node/IP CIs and relations of the software in that chunk (normal behaviour).
+
+Pagination root stays "InstalledSoftware". Each chunk must contain the Node/IP CIs and relations of the software in that chunk (normal behaviour).
 
 Requires: requests, urllib3   (optional: openpyxl for the .xlsx summary)
 """
@@ -69,7 +59,7 @@ except ImportError:
 # CONFIGURATION
 # ============================================================
 
-SERVER_URL = "https://hdbvappcuc1.hdbfsdom.com:8443"
+SERVER_URL = "https://localhost.localdomain.com:8443"
 API_PATH = "/rest-api"
 
 USERNAME = "admin"
@@ -946,7 +936,7 @@ def main():
     started = time.time()
 
     print("=" * 70)
-    print("UCMDB SOFTWARE AUTHORIZATION & COMPLIANCE REPORT (LARGE SCALE)")
+    print("UCMDB InstalledSoftware Inventory Report Generator (LARGE SCALE)")
     print("=" * 70)
     print(f"TQL: {TQL_NAME} | Pagination root: {PAGINATION_ROOT}")
     print(f"Chunk size: {CHUNK_SIZE} | Workers: {WORKERS}")
