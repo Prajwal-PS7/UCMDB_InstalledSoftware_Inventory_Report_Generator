@@ -1,18 +1,18 @@
 Hostname,IP Address,Serial,Deployment Environment,Total Software,Authorized,Unauthorized,Compliant,Non-Compliant,Computer Status
-78b4101-vios1,10.132.70.11,78B4101-1,Not Set,48,0,48,0,48,Non-Compliant
-78dcfd1_vios,10.132.70.109,78DCFD1-1,Not Set,34,0,34,0,34,Non-Compliant
-8sp7nm3,10.236.51.205,8SP7NM3,Not Set,5,1,4,2,3,Non-Compliant
-9vp7nm3,10.236.86.205,9VP7NM3,Not Set,6,0,6,1,5,Non-Compliant
-bigfixrelay-1,10.132.4.93,VMWARE-56 4D B9 FC 87 D1 CB CD-D3 DD 41 F4 14 9D 2B 27,Not Set,3,0,3,0,3,Non-Compliant
-dbftrl01,172.17.11.8,VMWARE-42 19 80 F2 7F AC 76 1D-A6 26 16 EF 5F 55 F8 F6,Not Set,3,0,3,0,3,Non-Compliant
-dbftrl02,172.17.11.45,VMWARE-42 19 D0 6F 2C 4E 12 2D-57 38 0D B6 EB B2 35 DA,Not Set,6,0,6,0,6,Non-Compliant
-desktop-a0lagj0,10.233.238.70,PG04M8HK,Not Set,10,0,10,0,10,Non-Compliant
-desktop-j1005ga,10.233.237.22,PG03HTL6,Not Set,3,0,3,0,3,Non-Compliant
-desktop-rblf8ai,10.234.253.160,UXBH5SI644M2086676,Not Set,2,0,2,0,2,Non-Compliant
-dp9ljm3,10.233.209.217,DP9LJM3,Not Set,15,0,15,0,15,Non-Compliant
-hb22lt05110,10.233.199.42,UNVPNSID28M3679314,Not Set,6,1,5,1,5,Non-Compliant
-hbd19dt20403,10.233.228.156,UXBC7SI310J4657798,Not Set,5,0,5,0,5,Non-Compliant
-hbd20dt21270,10.235.45.146,UXBC7SIE07K1906514,Not Set,3,0,3,0,3,Non-Compliant
-hbd22dt24505,10.236.7.215,UXBH5SI460M1533116,Not Set,5,1,4,1,4,Non-Compliant
-hbd22dt26156,10.236.4.208,UXBH5SI774M2928916,Not Set,2,1,1,1,1,Non-Compliant
-hbd22dt340231,10.236.64.15,UXBH5SI460M1532994,Not Set,4,0,4,0,4,Non-Compliant
+testserver01,127.0.70.11,testserial01,Not Set,48,0,48,0,48,Non-Compliant
+testserver02,127.0.70.109,testserial02,Not Set,34,0,34,0,34,Non-Compliant
+testserver03,127.0.51.205,testserial03,Not Set,5,1,4,2,3,Non-Compliant
+testserver04,127.0.86.205,testserial04,Not Set,6,0,6,1,5,Non-Compliant
+testserver05,127.0.4.93,testserial05,Not Set,3,0,3,0,3,Non-Compliant
+testserver06,127.0.11.8,testserial06,Not Set,3,0,3,0,3,Non-Compliant
+testserver07,127.0.11.45,testserial07,Not Set,6,0,6,0,6,Non-Compliant
+testdesktop01,127.0.238.70,testserial08,Not Set,10,0,10,0,10,Non-Compliant
+testdesktop02,127.0.237.22,testserial09,Not Set,3,0,3,0,3,Non-Compliant
+testdesktop03,127.0.253.160,testserial10,Not Set,2,0,2,0,2,Non-Compliant
+testserver08,127.0.209.217,testserial11,Not Set,15,0,15,0,15,Non-Compliant
+testdesktop04,127.0.199.42,testserial12,Not Set,6,1,5,1,5,Non-Compliant
+testdesktop05,127.0.228.156,testserial13,Not Set,5,0,5,0,5,Non-Compliant
+testdesktop06,127.0.45.146,testserial14,Not Set,3,0,3,0,3,Non-Compliant
+testdesktop07,127.0.7.215,testserial15,Not Set,5,1,4,1,4,Non-Compliant
+testdesktop08,127.0.4.208,testserial16,Not Set,2,1,1,1,1,Non-Compliant
+testdesktop09,127.0.64.15,testserial17,Not Set,4,0,4,0,4,Non-Compliant
