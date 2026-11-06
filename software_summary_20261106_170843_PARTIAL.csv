@@ -1,0 +1,23 @@
+Software Name,Version,Software Type,Subscription Type,Deployment Environment,Installations,Authorization,Compliance,Reason
+Microsoft Edge,149.0.4022.62,Freeware,Freeware,Not Set,3619,Unauthorized,Non-Compliant,version not in approved list (153.0.4234.48); version < minimum 153.0.4234.48
+QT,5.15.3.0,Unclassified,Unclassified,Not Set,2255,Unauthorized,Non-Compliant,Software not in approved catalog
+English Text-To-Speech Engine,11.0.58.18,Unclassified,Unclassified,Not Set,1987,Unauthorized,Non-Compliant,Software not in approved catalog
+Universal Discovery Agent,25.4.98.0,Licensed,Perpetual,Not Set,1982,Unauthorized,Compliant,version not in approved list (25.4.000.98); version >= minimum 25.4.000.98
+Windows Media Player,12.0.26100.1882,Unclassified,Unclassified,Not Set,1890,Unauthorized,Non-Compliant,Software not in approved catalog
+whoami,10.0.26100.1882,Unclassified,Unclassified,Not Set,1850,Unauthorized,Non-Compliant,Software not in approved catalog
+Table Text Service,10.0.26100.8115,Unclassified,Unclassified,Not Set,1641,Unauthorized,Non-Compliant,Software not in approved catalog
+Universal Discovery Agent (x86),25.4.000.98,Licensed,Perpetual,Not Set,1592,Authorized,Compliant,approved version; version >= minimum 25.4.000.98
+OneDrive,25.087.0506.0001,Unclassified,Unclassified,Not Set,1566,Unauthorized,Non-Compliant,Software not in approved catalog
+BigFix Client,11.0.2.125,Unclassified,Unclassified,Not Set,1536,Unauthorized,Non-Compliant,Software not in approved catalog
+Curl,8.21.0,Unclassified,Unclassified,Not Set,1535,Unauthorized,Non-Compliant,Software not in approved catalog
+Digital Guardian Agent,10.1.0.0036,Unclassified,Unclassified,Not Set,1531,Unauthorized,Non-Compliant,Software not in approved catalog
+Java SE Runtime Environment,1.8.0_311-b11(64bit),Unclassified,Unclassified,Not Set,1528,Unauthorized,Non-Compliant,Software not in approved catalog
+BigFix Remote Control - Target,10.1.0.0326,Unclassified,Unclassified,Not Set,1504,Unauthorized,Non-Compliant,Software not in approved catalog
+Microsoft .NET Framework,4.8.04084(64bit),Unclassified,Unclassified,Not Set,1503,Unauthorized,Non-Compliant,Software not in approved catalog
+Sentinel Agent,25.2.442,Unclassified,Unclassified,Not Set,1488,Unauthorized,Non-Compliant,Software not in approved catalog
+7-Zip 26.01 (x64),26.01,Freeware,Freeware,Not Set,1430,Authorized,Compliant,approved version; version >= minimum 26.01
+Robocopy,10.0.26100.8737,Unclassified,Unclassified,Not Set,1416,Unauthorized,Non-Compliant,Software not in approved catalog
+Google Chrome,149.0.7827.115,Unclassified,Unclassified,Not Set,1372,Unauthorized,Non-Compliant,Software not in approved catalog
+Windows PowerShell,10.0.26100.8875,Unclassified,Unclassified,Not Set,1320,Unauthorized,Non-Compliant,Software not in approved catalog
+Java Auto Updater,2.8.311.11,Unclassified,Unclassified,Not Set,1247,Unauthorized,Non-Compliant,Software not in approved catalog
+ 

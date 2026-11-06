@@ -1,0 +1,26 @@
+{
+  "mode": "read_only",
+  "status": "failed",
+  "error": "GET topology/result/[result-id]/[chunk]: ChunkedEncodingError",
+  "generated": "20261106_170843",
+  "chunks_processed": 103,
+  "software_records_seen": 205998,
+  "devices": 32628,
+  "distinct_software_versions": 13753,
+  "detail_rows_written": 20896,
+  "detail_files": [
+    "software_compliance_detail_20261106_170843_part001.csv"
+  ],
+  "counts": {
+    "unauthorized": 201052,
+    "non_compliant": 198412,
+    "unlisted": 185102,
+    "compliant": 7586,
+    "authorized": 4946
+  },
+  "devices_by_environment": {
+    "Not Set": 32628,
+    "TOTAL (distinct devices)": 32628
+  },
+  "duration_minutes": 54.9
+}

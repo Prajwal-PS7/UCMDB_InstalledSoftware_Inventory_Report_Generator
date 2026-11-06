@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "mode": "read_only",
+  "error": "GET topology/result/[result-id]/[chunk]: ChunkedEncodingError"
+}

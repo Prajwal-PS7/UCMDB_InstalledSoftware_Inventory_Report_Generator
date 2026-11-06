@@ -1,0 +1,23 @@
+Hostname,IP Address,Serial,Software Name,Version,Publisher,Software Type,Subscription Type,Deployment Environment,Authorization,Compliance,Reason
+hdb26lt13747,10.233.235.30,UN36HSI0025511BED60700,Universal Discovery Agent,25.4.98.0,,Licensed,Perpetual,Not Set,Unauthorized,Compliant,version not in approved list (25.4.000.98); version >= minimum 25.4.000.98
+hdb22dt26312,10.233.10.117,UXBH5SI774M2479007,7-Zip 26.01 (x64),26.01,,Freeware,Freeware,Not Set,Authorized,Compliant,approved version; version >= minimum 26.01
+hbd25lt11727,10.236.88.109,PG044V0Z,Microsoft Edge WebView2 Runtime,151.0.4129.72,,Freeware,Freeware,Not Set,Unauthorized,Non-Compliant,version not in approved list (153.0.4234.48); version < minimum 153.0.4234.48
+hdb22dt340395,10.233.25.20,PG03HTNR,Universal Discovery Agent,25.4.98.0,,Licensed,Perpetual,Not Set,Unauthorized,Compliant,version not in approved list (25.4.000.98); version >= minimum 25.4.000.98
+hdb26lt14304,10.236.128.154,UN36HSI00B61505ADA0700,Microsoft Edge WebView2 Runtime,149.0.4022.80,,Freeware,Freeware,Not Set,Unauthorized,Non-Compliant,version not in approved list (153.0.4234.48); version < minimum 153.0.4234.48
+hdb22lt04849,10.234.74.117,UNVPNSIC82M3171150,7-Zip 26.01 (x64),26.01,,Freeware,Freeware,Not Set,Authorized,Compliant,approved version; version >= minimum 26.01
+hdb21dt22337,10.235.70.38,UXVTJSI486L3307082,WPS Office,"10,2,0,7646",,Commercial,Annual Subscription,Not Set,Unauthorized,Compliant,"version not in approved list (10,2,0,7549); version >= minimum 10,2,0,7549"
+hdb19dt20185,10.234.8.134,UXBC7SI310J4437996,7-Zip 26.01 (x64 edition),26.01.00.0,,Freeware,Freeware,Not Set,Unauthorized,Compliant,version not in approved list (26.01); version >= minimum 26.01
+hdb24dt36302,10.233.199.155,PG043H1A,7-Zip 26.01 (x64),26.01,,Freeware,Freeware,Not Set,Authorized,Compliant,approved version; version >= minimum 26.01
+hdb23lt08671,10.233.54.104,UNB2RSI0013253046D2700,Universal Discovery Agent,25.4.98.0,,Licensed,Perpetual,Not Set,Unauthorized,Compliant,version not in approved list (25.4.000.98); version >= minimum 25.4.000.98
+hdb19dt17787,10.235.43.13,UXBC7SI310J1762381,7-Zip 26.01 (x64),26.01,,Freeware,Freeware,Not Set,Authorized,Compliant,approved version; version >= minimum 26.01
+hdb23lt06458,10.233.192.32,PG03603Y,Microsoft Edge WebView2 Runtime,155.0.4283.62,,Freeware,Freeware,Not Set,Unauthorized,Compliant,version not in approved list (153.0.4234.48); version >= minimum 153.0.4234.48
+hdb24lt11145,10.234.112.91,37LJ324,Microsoft Edge,149.0.4022.62,,Freeware,Freeware,Not Set,Unauthorized,Non-Compliant,version not in approved list (153.0.4234.48); version < minimum 153.0.4234.48
+hdb24dt37312,10.233.18.212,GM0DX3VK,7-Zip,26.01,,Freeware,Freeware,Not Set,Authorized,Compliant,approved version; version >= minimum 26.01
+hdb22lt04587,10.236.133.54,UNVPNSIC82M3171354,Universal Discovery Agent,25.4.98.0,,Licensed,Perpetual,Not Set,Unauthorized,Compliant,version not in approved list (25.4.000.98); version >= minimum 25.4.000.98
+hdb21dt23109,10.236.31.157,UXVTJSI630L3418358,Microsoft Edge,145.0.3800.70,,Freeware,Freeware,Not Set,Unauthorized,Non-Compliant,version not in approved list (153.0.4234.48); version < minimum 153.0.4234.48
+hdb22dt26639,10.233.10.205,UXBH5SI774M2478946,Microsoft Edge,122.0.2365.106,,Freeware,Freeware,Not Set,Unauthorized,Non-Compliant,version not in approved list (153.0.4234.48); version < minimum 153.0.4234.48
+hdb26lt12948,10.233.194.237,UN35ASI0DV550026000700,Universal Discovery Agent,25.4.000.98,,Licensed,Perpetual,Not Set,Authorized,Compliant,approved version; version >= minimum 25.4.000.98
+hdb21dt22182,10.236.57.214,PG02CLWA,7-Zip 26.01 (x64),26.01,,Freeware,Freeware,Not Set,Authorized,Compliant,approved version; version >= minimum 26.01
+hdb21lt03059,10.236.121.31,LR0EEVG3,Microsoft Edge,150.0.4078.83,,Freeware,Freeware,Not Set,Unauthorized,Non-Compliant,version not in approved list (153.0.4234.48); version < minimum 153.0.4234.48
+hdb24dt37684,10.233.19.87,PG04M8K3,7-Zip 26.01 (x64),26.01,,Freeware,Freeware,Not Set,Authorized,Compliant,approved version; version >= minimum 26.01
+ 
